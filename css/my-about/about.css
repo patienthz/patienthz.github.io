@@ -1,0 +1,80 @@
+/* About 页面容器 */
+.about-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    line-height: 1.8;
+    color: #333;
+    background: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* 各大段落标题 */
+.about-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #1e90ff;
+}
+
+.about-container h2 {
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+    border-bottom: 2px solid #1e90ff;
+    padding-bottom: 0.2rem;
+}
+
+/* 引言段落 */
+.intro p {
+    font-size: 1.1rem;
+    margin-bottom: 0.6rem;
+}
+
+/* 列表样式 */
+.profile ul,
+.contact ul {
+    list-style: disc inside;
+    margin-left: 1rem;
+}
+
+/* 兴趣领域标签 */
+.chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+}
+
+.chip {
+    display: inline-block;
+    padding: 0.4rem 0.8rem;
+    background: #1e90ff;
+    color: #fff;
+    border-radius: 16px;
+    font-size: 0.9rem;
+}
+
+/* 联系方式链接 */
+.contact a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* 视觉调整 */
+@media (max-width: 600px) {
+    .about-container {
+        padding: 1rem;
+    }
+
+    .about-container h1 {
+        font-size: 2rem;
+    }
+
+    .about-container h2 {
+        font-size: 1.5rem;
+    }
+}
